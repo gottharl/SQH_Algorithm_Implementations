@@ -73,7 +73,7 @@ def sqh_algorithm(epsilon):
     '''
     # Initialize variables
     x_start = np.array([0]) # Given initial state
-    k_max = 1000  # Maximum number of iterations
+    k_max = 2000  # Maximum number of iterations
     kappa_2 = 1e-3 # Tolerance for the end condition
     k = 0 # Iteration counter
     sigma = 1.1  # Adjustment parameter for epsilon
